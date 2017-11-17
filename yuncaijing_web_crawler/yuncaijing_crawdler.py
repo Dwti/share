@@ -16,7 +16,7 @@ def deal_url(url):
             re_url = url + "simple.html"
             url_list.append(re_url)
         else:
-            re_url = url + "page_" + i + ".html"
+            re_url = url + "page_" + i+ ".html"
             url_list.append(re_url)
             url=url
     return url_list
@@ -53,7 +53,8 @@ def write_files(keyword):
     # keyword = "深圳"
     news=find_all_keynews(keyword)
     # print(news)
-    with open('C:/Users/srt-k12001/Desktop/医疗.txt', 'w') as f:
+    #C:/Users/srt-k12001/Desktop/医疗.txt
+    with open('./'+keyword+'.txt', 'w') as f:
         if len(news)==0:
             f.write("没找到相关资源啦！！！")
         else:
