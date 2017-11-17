@@ -55,4 +55,14 @@ public class FileBean {
     public String getDesc() {
         return desc;
     }
+
+    @Override
+    public String toString() {
+        return "FileBean{" +
+                "id=" + id +
+                ", pid=" + pid +
+                ", lable='" + lable + '\'' +
+                ", desc='" + desc + '\'' +
+                '}';
+    }
 }

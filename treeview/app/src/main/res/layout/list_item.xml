@@ -18,8 +18,8 @@
         android:layout_centerVertical="true"
         android:layout_toRightOf="@+id/id_item_icon"
         android:textSize="18dp"
-        android:text="hhhhhhhhhh"
-        android:layout_width="wrap_content"
+        android:text="xixiixixixixixii"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
 </RelativeLayout>

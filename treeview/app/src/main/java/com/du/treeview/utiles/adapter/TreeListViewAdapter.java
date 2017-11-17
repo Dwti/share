@@ -69,7 +69,7 @@ public abstract class TreeListViewAdapter<T> extends BaseAdapter {
         }
 
     }
-//获取个题count呢？？？就是没回去所有没有结果
+//获取个题count呢？？？就是没回去所以没有结果
     @Override
     public int getCount() {
         return mVisibleNodes.size();
@@ -97,7 +97,7 @@ public abstract class TreeListViewAdapter<T> extends BaseAdapter {
         return convertView;
     }
     //抽象的方法
-    public abstract View getContextView(Node node,int position,View contextView,ViewGroup parent);
+    public abstract View  getContextView(Node node,int position,View contextView,ViewGroup parent);
 
 
 }
